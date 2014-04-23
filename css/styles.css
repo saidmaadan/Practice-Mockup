@@ -13,20 +13,23 @@ header p{
   padding-top: 5px;
   padding-left: 10px;
 }
-header p span{
+header p span {
   color: #649a43;
 }
-article{
+
+article {
   width: 100%;
   padding: 0 10px;
 }
-.menu-list{
+
+.menu-list {
   float: left;
   padding-right: 15px;
   padding-top: 15px;
   color: #babcbf;
 }
-.login{
+
+.login {
   float: right;
 }
 /*.login ul{
@@ -68,10 +71,12 @@ form #submit{
   font-size: 1.2em;
   border: none;
 }
+
 .connect{
   text-align: center;
   color: #fff;
 }
+
 .connect p{
   padding-top: 20px;
 }
@@ -109,26 +114,40 @@ footer {
 
 }
 
-.icon-set-heading #left {
+/*.icon-set-heading #left {
   float: left;
 }
 
 .icon-set-heading #right {
   float: right;
-}
+}*/
 
 .icons {
   margin-top: 30px;
 }
+
 .icons ul li {
-  display: inline;
+    list-style-type: none;
+    display: inline-block;
 }
 
-/*li .icon-set1 {
-  background-image: url("img/png.png");
+/*.icons ul li {
+  display: inline;
+}*/
+
+.icon-set1 {
+  background-image: url("../img/png.png");
+  background-size: contain;
   width: 180px;
   height: 150px;
   background-repeat: no-repeat;
 }
 
-*/
+.icon-set2 {
+  background-image: url("../img/png-1.png");
+  background-size: contain;
+  width: 180px;
+  height: 150px;
+  background-repeat: no-repeat;
+}
+
