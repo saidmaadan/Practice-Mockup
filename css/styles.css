@@ -1,18 +1,23 @@
-body{
+body {
+  margin: 0;
   background: #202224;
+  width: 100%;
   font-family: "Source Sans Pro","Helvetica neue",helvetica,sans-serif;
 }
-header{
+
+header {
   background: #010206;
   width: 100%;
   height: 30px;
   margin-top: -15px;
 }
-header p{
+
+header p {
   color: #bcd9e4;
   padding-top: 5px;
   padding-left: 10px;
 }
+
 header p span {
   color: #649a43;
 }
@@ -32,20 +37,20 @@ article {
 .login {
   float: right;
 }
-/*.login ul{
-  display: inline;
-}*/
-.login ul li{
+
+.login ul li {
   list-style-type: none;
   display: inline;
   padding-right: 15px;
   color: #babcbf;
 }
-section{
+
+section {
   width: 100%;
   margin-top: 100px;
 }
-.logo{
+
+.logo {
   height: 86px;
   width: 500px;
   background: url('../img/logo.png')no-repeat;
@@ -58,11 +63,13 @@ section{
   width: 55%;
   margin: 20px auto;
 }
-form #search{
+
+form #search {
   width: 80%;
   height: 40px;
 }
-form #submit{
+
+form #submit {
   width: 15%;
   height: 45px;
   background: #6a9b40;
@@ -72,37 +79,34 @@ form #submit{
   border: none;
 }
 
-.connect{
+.connect {
   text-align: center;
   color: #fff;
 }
 
-.connect p{
+.connect p {
   padding-top: 20px;
 }
 
 footer {
   background: #fff;
   width: 100%;
-  /*margin: 0 auto;*/
 }
+
 .nav {
   width: 100%;
   margin: auto;
-  /*float: left;*/
   box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
 
 .nav ul {
   text-align: center;
 }
+
 .nav ul li {
   list-style-type: none;
   display: inline-block;
-  /*float: left;*/
   padding: 10px;
-
-  /*text-align: center;*/
 }
 
 .nav ul li:hover {
@@ -111,16 +115,14 @@ footer {
 }
 
 .icon-set-heading {
-  /*float: left;*/
   width: 75%;
   margin: auto;
 }
 
-.icon-set-heading ul li{
+.icon-set-heading ul li {
   list-style-type: none;
   display: inline;
   padding: 10px;
-
 }
 
 .icon-set-heading #left {
@@ -136,58 +138,42 @@ footer {
   font-size: 14px;
 }
 
-/*.icons {
-  margin-top: 10px;
-}*/
-
 .icons ul li {
-    list-style-type: none;
-    display: inline-block;
+  list-style-type: none;
+  display: inline-block;
 }
-
-/*.icons ul li {
-  display: inline;
-}*/
 
 .icons {
   clear: both;
   text-align: center;
 }
+
 .icons li {
   display: inline;
   margin-right: 15px;
   margin-top: 10px;
 }
 
-.icon-set1 {
-  background-image: url("../img/png.png");
+.icon-set {
   background-size: contain;
   width: 180px;
   height: 150px;
   background-repeat: no-repeat;
+}
+
+.icon-set1 {
+  background-image: url("../img/png.png");
 }
 
 .icon-set2 {
   background-image: url("../img/png-1.png");
-  background-size: contain;
-  width: 180px;
-  height: 150px;
-  background-repeat: no-repeat;
 }
 
 .icon-set3 {
   background-image: url("../img/png-2.png");
-  background-size: contain;
-  width: 180px;
-  height: 150px;
-  background-repeat: no-repeat;
 }
 
 .icon-set4 {
   background-image: url("../img/png-3.png");
-  background-size: contain;
-  width: 180px;
-  height: 150px;
-  background-repeat: no-repeat;
 }
 
