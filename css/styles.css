@@ -90,6 +90,7 @@ footer {
   width: 100%;
   margin: auto;
   /*float: left;*/
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
 }
 
 .nav ul {
@@ -100,11 +101,19 @@ footer {
   display: inline-block;
   /*float: left;*/
   padding: 10px;
+
   /*text-align: center;*/
+}
+
+.nav ul li:hover {
+  color: #3aa24d;
+  border-bottom: 2px solid #3aa24d;
 }
 
 .icon-set-heading {
   /*float: left;*/
+  width: 75%;
+  margin: auto;
 }
 
 .icon-set-heading ul li{
@@ -114,17 +123,22 @@ footer {
 
 }
 
-/*.icon-set-heading #left {
+.icon-set-heading #left {
   float: left;
+  padding-left: 30px;
+  font-weight: bold;
 }
 
 .icon-set-heading #right {
   float: right;
-}*/
-
-.icons {
-  margin-top: 30px;
+  padding-right: 45px;
+  color: #3aa24d;
+  font-size: 14px;
 }
+
+/*.icons {
+  margin-top: 10px;
+}*/
 
 .icons ul li {
     list-style-type: none;
@@ -134,6 +148,16 @@ footer {
 /*.icons ul li {
   display: inline;
 }*/
+
+.icons {
+  clear: both;
+  text-align: center;
+}
+.icons li {
+  display: inline;
+  margin-right: 15px;
+  margin-top: 10px;
+}
 
 .icon-set1 {
   background-image: url("../img/png.png");
@@ -145,6 +169,22 @@ footer {
 
 .icon-set2 {
   background-image: url("../img/png-1.png");
+  background-size: contain;
+  width: 180px;
+  height: 150px;
+  background-repeat: no-repeat;
+}
+
+.icon-set3 {
+  background-image: url("../img/png-2.png");
+  background-size: contain;
+  width: 180px;
+  height: 150px;
+  background-repeat: no-repeat;
+}
+
+.icon-set4 {
+  background-image: url("../img/png-3.png");
   background-size: contain;
   width: 180px;
   height: 150px;
